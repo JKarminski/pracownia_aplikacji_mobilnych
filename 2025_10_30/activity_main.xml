@@ -1,0 +1,189 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:text="Imię"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz imię" />
+
+        <TextView
+            android:text="Nazwisko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz nazwisko" />
+
+        <TextView
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz email" />
+
+        <TextView
+            android:text="Imie psa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz imie psa" />
+
+        <TextView
+            android:text="Imie kota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz imie kota" />
+
+        <TextView
+            android:text="Imie papugi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz imie papugi" />
+
+        <TextView
+            android:text="Imie myszy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz imie myszy" />
+
+        <TextView
+            android:text="Jaka karme dajesz psu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz jaka karme dajesz psu" />
+
+        <TextView
+            android:text="Jakimi myszami zywi sie twoj kot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz jakimi myszami zywi sie twoj kot" />
+
+        <TextView
+            android:text="Dlaczego tak nazwales swoja papuge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz dlaczego tak nazwales swoja papuge" />
+
+        <TextView
+            android:text="Kiedy twoj pies bedzie twoim zdaniem dorosly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz kiedy twoj pies bedzie twoim zdaniem dorosly" />
+
+        <TextView
+            android:text="Jakiej rasy masz psa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz jakiej rasy masz psa" />
+
+        <TextView
+            android:text="Dlaczego twoj kot jest dachowcem a pies jest rasowy?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz dlaczego twoj kot jest dachowcem a pies jest rasowy" />
+
+        <TextView
+            android:text="Jakie jest twoim zdaniem najgorsze imie dla psa?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz jakie jest twoim zdaniem najgorsze imie dla psa" />
+
+        <TextView
+            android:text="Kiedy ostatni raz byles z psem u weterynarza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz kiedy ostatni raz byles z psem u weterynarza" />
+
+        <TextView
+            android:text="Kiedy ostatni raz byles z kotem u weterynarza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz kiedy ostatni raz byles z kotem u weterynarza" />
+
+        <TextView
+            android:text="Jakie jest twoje ulubione zwierze"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz jakie jest twoje ulubione zwierze" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wyślij" />
+
+    </LinearLayout>
+</ScrollView>
