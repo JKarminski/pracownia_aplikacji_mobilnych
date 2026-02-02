@@ -1,84 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="@android:color/white">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvHeader"
         android:layout_width="match_parent"
-        android:layout_height="18dp"
-        android:layout_weight="1"
-        android:background="@color/teal"
+        android:layout_height="wrap_content"
+        android:background="#008080"
         android:text="Rejestruj konto"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="45sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="1sp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:text="Podaj e-mail:"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podaj haslo:"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powtorz haslo:"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etPasswordRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
         />
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="9sp"
-        android:layout_weight="1"
-        android:inputType="textEmailAddress" />
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZATWIERDZ" />
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvMessage"
         android:layout_width="match_parent"
-        android:layout_height="1sp"
-        android:layout_weight="1"
-        android:text="Podaj hasło:" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="6sp"
-        android:layout_weight="1"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="0sp"
-        android:layout_weight="1"
-        android:text="Powtórz hasło:" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="match_parent"
-        android:layout_height="3sp"
-        android:layout_weight="1"
-        android:inputType="textPassword" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="Zatwierdź"
-        android:textSize="20dp" />
-
-    <TextView
-        android:id="@+id/obszar"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_weight="1"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center_horizontal"
-        android:text="Witaj:" />
+        android:layout_height="wrap_content"
+        android:text="Autor: 1234567890"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center" />
 
 </LinearLayout>
