@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2026_02_09</string>
+    <string name="logo">Logo ZSK</string>>
+    <string name="no_uniform">Zgłoś brak mundurka</string>
+    <string name="Imie">Imie</string>
+    <string name="Nazwisko">Nazwisko</string>
+    <string name="Klasa">Klasa</string>
+</resources>
