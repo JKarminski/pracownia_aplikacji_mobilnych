@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/Beige"
+    >
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@color/Brown"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/Rzut"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Rzut"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Chocolate"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/Kosc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/question"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/Kosc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/question"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/Kosc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/question"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/Kosc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/question"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/Kosc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/question"
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Wynik_losowania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Wynik_losowania" />
+
+    <TextView
+        android:id="@+id/Wynik_gry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Wynik_gry" />
+
+    <Button
+        android:id="@+id/Resetuj"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Resetuj"
+        android:backgroundTint="@color/Chocolate"
+        />
+
+</LinearLayout>

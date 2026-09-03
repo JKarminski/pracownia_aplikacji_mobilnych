@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="Title">Gra w kosci. Autor: 6967420</string>
+    <string name="Rzut">Rzuc koscmi</string>
+    <string name="Wynik_losowania">Wynik tego losowania: </string>
+    <string name="Wynik_gry">Wynik gry: </string>
+    <string name="Resetuj">RESETUJ WYNIK</string>
+</resources>
