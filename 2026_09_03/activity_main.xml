@@ -20,6 +20,7 @@
         android:textAlignment="center"
         android:background="@color/Brown"
         android:textColor="@color/white"
+        android:layout_marginVertical="10dp"
         />
 
     <Button
@@ -29,6 +30,8 @@
         android:text="@string/Rzut"
         android:layout_gravity="center"
         android:backgroundTint="@color/Chocolate"
+        android:layout_marginVertical="10dp"
+
         />
 
     <LinearLayout
@@ -36,6 +39,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@color/white"
+        android:layout_marginVertical="10dp"
         >
 
         <ImageView
@@ -45,6 +49,7 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/question"
             android:adjustViewBounds="true"
+            android:layout_marginHorizontal="10dp"
             />
 
         <ImageView
@@ -54,6 +59,8 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/question"
             android:adjustViewBounds="true"
+            android:layout_marginHorizontal="10dp"
+
             />
 
         <ImageView
@@ -62,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/question"
+            android:layout_marginHorizontal="10dp"
             android:adjustViewBounds="true"
             />
 
@@ -71,6 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/question"
+            android:layout_marginHorizontal="10dp"
             android:adjustViewBounds="true"
             />
 
@@ -80,6 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/question"
+            android:layout_marginHorizontal="10dp"
             android:adjustViewBounds="true"
             />
     </LinearLayout>
@@ -89,14 +99,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/Wynik_losowania" />
+        android:text="@string/Wynik_losowania"
+        android:layout_marginVertical="10dp"
+        />
 
     <TextView
         android:id="@+id/Wynik_gry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/Wynik_gry" />
+        android:text="@string/Wynik_gry"
+        android:layout_marginVertical="10dp"
+        />
 
     <Button
         android:id="@+id/Resetuj"
@@ -105,6 +119,7 @@
         android:layout_gravity="center"
         android:text="@string/Resetuj"
         android:backgroundTint="@color/Chocolate"
+        android:layout_marginVertical="10dp"
         />
 
 </LinearLayout>
