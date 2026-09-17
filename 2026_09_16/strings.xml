@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">2026_09_16</string>
+    <string name="Urzadzenia">Urzadzenia domowe!</string>
+    <string name="Autor">Autor: 12324567890</string>
+    <string name="Pralka">Pralka</string>
+    <string name="Zatwierdz">Zatwierdz</string>
+    <string name="Numer_prania">Numer prania: nie podano</string>
+    <string name="Odkurzacz">Okurzacz</string>
+    <string name="Wlacz">Wlacz</string>
+    <string name="Odkurzacz_wylaczony">Odkurzacz wylaczony</string>
+    <string name="Odkurzacz_status">Status: Naladowany</string>
+
+</resources>
