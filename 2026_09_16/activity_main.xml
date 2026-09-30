@@ -6,61 +6,141 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/LightBlue"
+    >
 
     <TextView
         android:id="@+id/Urzadzenia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Urzadzenia" />
+        android:text="@string/Urzadzenia"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        />
 
     <TextView
         android:id="@+id/Autor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Autor" />
+        android:text="@string/Autor"
+        android:textAlignment="center"
+        android:layout_margin="5dp"
+        />
 
-    <TextView
-        android:id="@+id/Pralka"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Pralka" />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/Zatwierdz"
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/pralka" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Pralka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/Pralka"
+                android:textAlignment="textStart"
+                />
+
+            <EditText
+                android:id="@+id/Numer_prania_input"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number"
+                android:background="@color/SkyBlue"
+                android:textColor="@color/Navy"
+                android:textColorHint="@color/Navy"
+                android:hint="Podaj nr prania 1 .. 12"
+                android:text=""/>
+
+            <Button
+                android:id="@+id/Zatwierdz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="@string/Zatwierdz"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/Numer_prania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Numer_prania" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Zatwierdz" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/Numer_prania"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Numer_prania" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/odkurzacz" />
 
-    <TextView
-        android:id="@+id/Odkurzacz"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Odkurzacz" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/Wlacz"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Wlacz" />
+            <TextView
+                android:id="@+id/Odkurzacz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/Odkurzacz" />
 
-    <TextView
-        android:id="@+id/Odkurzacz_wylaczony"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Odkurzacz_wylaczony" />
+            <Button
+                android:id="@+id/WlaczWylacz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/RoyalBlue"
+                android:text="@string/Wlacz"
+                android:layout_margin="10dp"
+                />
 
-    <TextView
-        android:id="@+id/Odkurzacz_status"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Odkurzacz_status" />
+            <TextView
+                android:id="@+id/Odkurzacz_stan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Odkurzacz_wylaczony" />
+
+            <TextView
+                android:id="@+id/Odkurzacz_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Odkurzacz_status" />
+        </LinearLayout>
+    </LinearLayout>
 
 
 </LinearLayout>
