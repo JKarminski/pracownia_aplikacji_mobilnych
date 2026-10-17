@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingTop="20dp"
+    >
+
+    <TextView
+        android:id="@+id/Tytul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Domek"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:id="@+id/Obraz"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/obraz"
+        android:adjustViewBounds="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal">
+
+        <Button
+            android:id="@+id/PolubBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Polub"
+            android:backgroundTint="@color/teal"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/UsunBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal"
+            android:text="@string/Usun"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/ZapiszBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal"
+            android:text="@string/Zapisz"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/LiczbaPolubien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:text="@string/Liczba_polubien" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray"
+        />
+
+    <TextView
+        android:id="@+id/Opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Opis"
+        android:textFontWeight="1000"
+        />
+
+    <TextView
+        android:id="@+id/OpisCaly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Gray"
+        android:text="@string/Opis_caly"/>
+</LinearLayout>
