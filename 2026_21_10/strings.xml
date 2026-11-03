@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">2026_10_21</string>
+    <string name="kot">Kot</string>
+    <string name="pies">Pies</string>
+    <string name="swinka_morska">Swinka morska</string>
+    <string name="gatunek">Gatunek</string>
+    <string name="wizyta">Wizyta u weterynarza</string>
+    <string name="ImieNazwisko">Imie i nazwisko wlasciciela...</string>
+    <string name="wiek">Ile ma lat?</string>
+    <string name="wartosc_wieku">0</string>
+    <string name="cel">Cel wizyty</string>
+    <string name="godzina">Godzina</string>
+    <string name="czas">16:00</string>
+    <string name="ok">OK</string>
+</resources>
