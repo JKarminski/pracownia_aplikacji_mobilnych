@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/CadetBlue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/WartoscTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AntiqueWhite"
+        android:text="@string/Wartosc" />
+
+    <EditText
+        android:id="@+id/WartoscET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TekstTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AntiqueWhite"
+        android:text="@string/Tekst" />
+
+    <EditText
+        android:id="@+id/TekstET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="" />
+
+    <Button
+        android:id="@+id/SzyfrowanieBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/LightBlue"
+        android:text="@string/Zaszyfruj"
+        />
+
+    <TextView
+        android:id="@+id/ZaszyfrowanyTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AntiqueWhite"
+        android:text="@string/Zaszyfrowany" />
+
+    <TextView
+        android:id="@+id/WynikSzyfrowaniaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ramka"
+        android:textColor="@color/AliceBlue"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ZapiszBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/LightBlue"
+        android:text="@string/Zapisz" />
+
+</LinearLayout>

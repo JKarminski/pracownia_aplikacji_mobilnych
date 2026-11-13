@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Szyfrowanie wykonane przez 1234567890</string>
+    <string name="Wartosc">Podaj wartosc klucza</string>
+    <string name="Tekst">Podaj tekst</string>
+    <string name="Zaszyfruj">Zaszyfruj</string>
+    <string name="Zaszyfrowany">Tekst zaszyfrowany</string>
+    <string name="Zapisz">Zapisz szyfr w pliku</string>
+</resources>
