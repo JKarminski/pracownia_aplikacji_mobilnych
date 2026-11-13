@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+    <!-- Zabawne jest to ze daja w zadaniu wymagania ze
+    margin ma byc tylko dla calej strony,
+    a na screenach jest wszedzie-->
+    <TextView
+        android:id="@+id/WlasciwoscCzczionkiTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lime"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textFontWeight="700"
+        android:text="@string/Wlasciowosci" />
+
+    <TextView
+        android:id="@+id/RozmiarTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/Rozmiar" />
+
+    <!-- Niby min nie jest wymagane ale dalem w razie co-->
+    <SeekBar
+        android:id="@+id/RozmiarSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="40"
+        />
+    <TextView
+        android:id="@+id/CytatTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="@string/Cytat" />
+
+    <Button
+        android:id="@+id/CytatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lime"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text=">>" />
+
+
+</LinearLayout>
